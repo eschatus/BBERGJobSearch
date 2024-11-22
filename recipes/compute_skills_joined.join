@@ -4,22 +4,45 @@
       "table2": 1,
       "table1": 0,
       "conditionsMode": "AND",
-      "type": "LEFT",
+      "type": "RIGHT",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "skill_abr",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "windowFrom": 0,
+          "column2": {
+            "name": "skill_abr",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false,
+          "windowTo": 0
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
       "name": "skill_abr",
+      "type": "string",
       "table": 0
     },
     {
       "name": "skill_name",
+      "type": "string",
       "table": 0
     },
     {
       "name": "job_id",
+      "type": "string",
       "table": 1
     }
   ],
@@ -83,5 +106,27 @@
       "computedColumns": []
     }
   ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "skill_abr",
+            "type": "string"
+          },
+          {
+            "name": "skill_name",
+            "type": "string"
+          },
+          {
+            "name": "job_id",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
   "enableAutoCastInJoinConditions": false
 }
