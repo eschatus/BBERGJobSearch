@@ -1,7 +1,24 @@
 {
   "name": "jobs",
   "color": "#F9BE40",
-  "items": [],
+  "items": [
+    {
+      "objectId": "salaries",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "benefits",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "job_industries",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "job_skills",
+      "objectType": "DATASET"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
