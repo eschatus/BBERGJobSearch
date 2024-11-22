@@ -1,7 +1,16 @@
 {
   "name": "mappings",
   "color": "#31439C",
-  "items": [],
+  "items": [
+    {
+      "objectId": "skills",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "industries",
+      "objectType": "DATASET"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
