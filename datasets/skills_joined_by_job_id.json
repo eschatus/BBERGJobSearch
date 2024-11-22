@@ -68,6 +68,7 @@
   "schema": {
     "columns": [
       {"name":"job_id","type":"string"},
+      {"name":"skill_name_concat","type":"string"},
       {"name":"count","type":"bigint"}
     ],
     "userModified": true
