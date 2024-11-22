@@ -1,7 +1,24 @@
 {
   "name": "Companies",
   "color": "#C82423",
-  "items": [],
+  "items": [
+    {
+      "objectId": "company_specialities",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "companies",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "employee_counts",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "company_industries",
+      "objectType": "DATASET"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
