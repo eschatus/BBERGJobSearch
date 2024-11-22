@@ -6,20 +6,43 @@
       "conditionsMode": "AND",
       "type": "LEFT",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "industry_id",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "windowFrom": 0,
+          "column2": {
+            "name": "industry_id",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false,
+          "windowTo": 0
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
       "name": "job_id",
+      "type": "string",
       "table": 0
     },
     {
       "name": "industry_id",
+      "type": "string",
       "table": 0
     },
     {
       "name": "industry_name",
+      "type": "string",
       "table": 1
     }
   ],
@@ -83,5 +106,27 @@
       "computedColumns": []
     }
   ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "job_id",
+            "type": "string"
+          },
+          {
+            "name": "industry_id",
+            "type": "string"
+          },
+          {
+            "name": "industry_name",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
   "enableAutoCastInJoinConditions": false
 }
