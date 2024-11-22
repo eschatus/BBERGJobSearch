@@ -9,6 +9,14 @@
     {
       "objectId": "industries",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_skills_joined",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "skills_joined",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
