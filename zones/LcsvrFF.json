@@ -33,6 +33,14 @@
     {
       "objectId": "compute_skills_joined",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_skills_joined_by_job_id",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "skills_joined_by_job_id",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
