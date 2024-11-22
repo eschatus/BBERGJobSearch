@@ -29,8 +29,117 @@
   },
   "explorationFilters": [],
   "columnUseScientificNotationByName": {},
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "applies",
+          "views"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "Convert Dates",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "RoundProcessor",
+          "params": {
+            "mode": "ROUND",
+            "places": 0,
+            "columns": [
+              "expiry",
+              "listed_time",
+              "original_listed_time",
+              "closed_time"
+            ],
+            "precision": 0,
+            "appliesTo": "COLUMNS"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "UNIXTimestampParser",
+          "params": {
+            "milliseconds": true,
+            "inCol": "expiry"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "UNIXTimestampParser",
+          "params": {
+            "milliseconds": true,
+            "inCol": "listed_time"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "UNIXTimestampParser",
+          "params": {
+            "milliseconds": true,
+            "inCol": "original_listed_time"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "UNIXTimestampParser",
+          "params": {
+            "milliseconds": true,
+            "inCol": "closed_time"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "closed_time",
+          "posting_domain",
+          "count",
+          "fips",
+          "application_url"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -57,7 +166,41 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "listed_time": 134,
+    "application_type": 162,
+    "description": 300,
+    "title": 300,
+    "zip_code": 100,
+    "skill_name_concat": 246,
+    "min_salary": 134,
+    "currency": 100,
+    "expiry": 134,
+    "views": 134,
+    "normalized_salary": 143,
+    "company_id": 134,
+    "work_type": 113,
+    "count": 100,
+    "pay_period": 100,
+    "remote_allowed": 134,
+    "skills_desc": 183,
+    "fips": 100,
+    "formatted_experience_level": 210,
+    "sponsored": 100,
+    "closed_time": 134,
+    "posting_domain": 225,
+    "med_salary": 134,
+    "compensation_type": 143,
+    "application_url": 300,
+    "job_posting_url": 300,
+    "max_salary": 134,
+    "applies": 134,
+    "job_id": 100,
+    "formatted_work_type": 158,
+    "company_name": 232,
+    "location": 218,
+    "original_listed_time": 190
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
