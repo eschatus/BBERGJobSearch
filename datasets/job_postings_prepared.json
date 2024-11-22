@@ -91,7 +91,6 @@
       {"name":"currency","type":"string"},
       {"name":"compensation_type","type":"string"},
       {"name":"normalized_salary","type":"string"},
-      {"name":"zip_code","type":"string"},
       {"name":"skill_name_concat","type":"string"}
     ],
     "userModified": true
