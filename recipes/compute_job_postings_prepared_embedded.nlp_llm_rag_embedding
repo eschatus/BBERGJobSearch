@@ -1,5 +1,5 @@
 {
-  "maxRecords": 75000,
+  "maxRecords": 10000,
   "metadataColumns": [
     {
       "column": "company_name"
