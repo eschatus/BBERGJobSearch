@@ -1,6 +1,17 @@
 {
-  "metadataColumns": [],
+  "metadataColumns": [
+    {
+      "column": "company_name"
+    },
+    {
+      "column": "title"
+    },
+    {
+      "column": "skill_name_concat"
+    }
+  ],
   "chunkOverlapCharacters": 120,
   "chunkSizeCharacters": 3000,
+  "knowledgeColumn": "description",
   "documentSplittingMode": "CHARACTERS_BASED"
 }
