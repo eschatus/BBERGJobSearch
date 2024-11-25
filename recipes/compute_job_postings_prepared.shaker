@@ -139,6 +139,35 @@
         "appliesTo": "COLUMNS"
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "title",
+            "to": "job_title"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "RemoveRowsOnEmpty",
+      "params": {
+        "columns": [
+          "company_name"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
@@ -177,6 +206,7 @@
     "min_salary": 134,
     "currency": 100,
     "expiry": 134,
+    "job_title": 300,
     "views": 134,
     "normalized_salary": 143,
     "company_id": 134,
