@@ -69,7 +69,7 @@
     "columns": [
       {"name":"job_id","type":"string"},
       {"name":"company_name","type":"string"},
-      {"name":"title","type":"string"},
+      {"name":"job_title","type":"string"},
       {"name":"description","type":"string"},
       {"name":"max_salary","type":"string"},
       {"name":"pay_period","type":"string"},
