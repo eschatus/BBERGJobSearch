@@ -4,13 +4,19 @@
       "column": "company_name"
     },
     {
-      "column": "title"
+      "column": "job_title"
     },
     {
       "column": "skill_name_concat"
     },
     {
       "column": "location"
+    },
+    {
+      "column": "normalized_salary"
+    },
+    {
+      "column": "formatted_experience_level"
     }
   ],
   "chunkOverlapCharacters": 120,
