@@ -1,0 +1,6 @@
+{
+  "metadataColumns": [],
+  "chunkOverlapCharacters": 120,
+  "chunkSizeCharacters": 3000,
+  "documentSplittingMode": "CHARACTERS_BASED"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "job_postings_prepared_embedded",
+  "retrieverType": "VECTOR_STORE_BACKED",
+  "rebuildBehavior": "EXPLICIT",
+  "vectorStoreType": "FAISS",
+  "embeddingLLMId": "openai:openai-blackbox:text-embedding-3-small",
+  "envSelection": {
+    "envMode": "INHERIT"
+  },
+  "containerExecSelection": {
+    "containerMode": "INHERIT"
+  },
+  "llmsExposedWith": [],
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "sibongile.toure@dataiku.com"
+    },
+    "lastModifiedOn": 1732553446580,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
