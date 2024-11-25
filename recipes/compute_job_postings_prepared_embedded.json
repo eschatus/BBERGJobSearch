@@ -18,7 +18,7 @@
     "main": {
       "items": [
         {
-          "ref": "job_postings_prepared",
+          "ref": "job_postings_prepared_filtered",
           "deps": []
         }
       ]
