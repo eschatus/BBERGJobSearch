@@ -14,5 +14,5 @@
   "chunkOverlapCharacters": 120,
   "chunkSizeCharacters": 3000,
   "knowledgeColumn": "description",
-  "documentSplittingMode": "CHARACTERS_BASED"
+  "documentSplittingMode": "NONE"
 }
