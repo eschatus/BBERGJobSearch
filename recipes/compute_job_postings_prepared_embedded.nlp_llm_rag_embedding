@@ -9,7 +9,9 @@
     {
       "column": "skill_name_concat"
     },
-    {}
+    {
+      "column": "location"
+    }
   ],
   "chunkOverlapCharacters": 120,
   "chunkSizeCharacters": 3000,
