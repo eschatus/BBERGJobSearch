@@ -42,7 +42,7 @@
     "forceAuthentication": false
   },
   "config": {
-    "permanent_delete": true,
+    "permanent_delete": false,
     "feedback_positive_choices": [],
     "feedback_negative_choices": [],
     "allow_general_feedback": false,
@@ -50,8 +50,8 @@
     "show_advanced_settings": false,
     "system_prompt": "The following is a friendly conversation between a human and an AI. The AI is talkative and provides lots of specific details from its context. If the AI does not know the answer to a question, it truthfully says it does not know.",
     "memory_token_limit": 2000,
-    "retrieval_mode": "no_retriever",
-    "knowledge_bank_id": "None",
+    "retrieval_mode": "kb",
+    "knowledge_bank_id": "VwFckeXU",
     "activate_knowledge_bank": true,
     "enable_smart_usage_of_kb": true,
     "show_kb_advanced_settings": false,
@@ -87,10 +87,24 @@
     "language": "en",
     "log_level": "INFO",
     "http_headers": [],
-    "max_thread_workers_number": 0
+    "max_thread_workers_number": 0,
+    "knowledge_bank_custom_name": "",
+    "knowledge_bank_description": "",
+    "knowledge_bank_prompt": "",
+    "knowledge_sources_context_metadata": [],
+    "knowledge_sources_filters": [],
+    "knowledge_sources_displayed_metas": [],
+    "knowledge_source_url": false,
+    "knowledge_source_title": false,
+    "knowledge_source_thumbnail": false,
+    "sql_retrieval_custom_name": "",
+    "custom_theme_name": "",
+    "sql_retrieval_table_list": [],
+    "logging_dataset": "prompt_history",
+    "llm_id": "openai:openai-blackbox:gpt-4o-mini"
   },
   "name": "test",
-  "apiKey": "e:AES:X2:E/lZKfcT/umMMzoGp5BvXdQQa5orvOagycfH1A23kvz8zR3XzZhyTr7w/KJ1Ah2SRdGIh6ZQyalMlwi0qtbs0jvGMFSBrJPHSarepizOcFdTtseqQt7U",
+  "apiKey": "e:AES:X2:OZPQrGg7GYRSKmG/0VxSJTCotIAq/hIfmgYeJ28qBhQOY5IlYntSjMenTG8QctKlZZEEkUbOlaeHzf3I3tdbiIH+8HLfM055Yqufy2a6wA7U6bzr5tO5",
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
