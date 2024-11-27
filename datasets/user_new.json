@@ -60,8 +60,12 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {"name":"user","type":"string","maxLength":4194304},
+      {"name":"profile","type":"string","maxLength":4194304},
+      {"name":"last_updated","type":"date"}
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
