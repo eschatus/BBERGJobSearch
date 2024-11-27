@@ -53,7 +53,7 @@
     "retrieval_mode": "kb",
     "knowledge_bank_id": "VwFckeXU",
     "activate_knowledge_bank": true,
-    "enable_smart_usage_of_kb": true,
+    "enable_smart_usage_of_kb": false,
     "show_kb_advanced_settings": false,
     "knowledge_bank_system_prompt": "Given the following specific context, please give a short answer to the question at the end, If you don\u0027t know the answer, just say that you don\u0027t know, don\u0027t try to make up an answer.",
     "knowledge_retrieval_k": 3,
@@ -90,7 +90,6 @@
     "max_thread_workers_number": 0,
     "knowledge_bank_custom_name": "",
     "knowledge_bank_description": "",
-    "knowledge_bank_prompt": "",
     "knowledge_sources_context_metadata": [],
     "knowledge_sources_filters": [],
     "knowledge_sources_displayed_metas": [],
@@ -105,7 +104,7 @@
     "user_profile_dataset": "user_new"
   },
   "name": "test",
-  "apiKey": "e:AES:X2:5YtMXSDZuLm0gFqRgbaBCMFxrGYGjIbq6lFNRMd1XSX4k34TNDvEK6YgtqRTEbLJ6BFYw4xDcGN7J2dseLSFCYLLs7EKxc2gai2Uyxr88FOoZ/Mpde6A",
+  "apiKey": "e:AES:X2:fPbo7kIZvwJYtzuzNNNFLWrjZuCvx3ZLheAv5oBwNjix8h9r61AJYtMT9MO84o9YcNWDf3fJk2C5qpWgHmx/OddYf7bODsEy4jUoVhDx1ZDSAwjjTDRf",
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
