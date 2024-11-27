@@ -18,7 +18,7 @@
     ],
     "infra": {
       "containerSelection": {
-        "containerMode": "INHERIT"
+        "containerMode": "NONE"
       },
       "overrideGlobalK8sExposition": false,
       "exposition": {
@@ -104,7 +104,7 @@
     "llm_id": "openai:openai-blackbox:gpt-4o-mini"
   },
   "name": "test",
-  "apiKey": "e:AES:X2:OZPQrGg7GYRSKmG/0VxSJTCotIAq/hIfmgYeJ28qBhQOY5IlYntSjMenTG8QctKlZZEEkUbOlaeHzf3I3tdbiIH+8HLfM055Yqufy2a6wA7U6bzr5tO5",
+  "apiKey": "e:AES:X2:jjdTdF/Uhr5kwwBx+NvXRZp9KI9b8HFWWZIS21o4DtuOy3IsDjxdGpSD9JsADcUjitVy0+FvFv6zStQjUMelGTwxNXUqmrCy7eu9AhT04xyUqV9PWtDZ",
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
