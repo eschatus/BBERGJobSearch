@@ -60,8 +60,27 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {"name":"conversation_id","type":"string","maxLength":4194304},
+      {"name":"conversation_name","type":"string","maxLength":4194304},
+      {"name":"knowledge_bank_id","type":"string","maxLength":4194304},
+      {"name":"knowledge_bank_name","type":"string","maxLength":4194304},
+      {"name":"llm_name","type":"string","maxLength":4194304},
+      {"name":"user","type":"string","maxLength":4194304},
+      {"name":"message_id","type":"string","maxLength":4194304},
+      {"name":"question","type":"string","maxLength":4194304},
+      {"name":"filters","type":"string","maxLength":4194304},
+      {"name":"file_path","type":"string","maxLength":4194304},
+      {"name":"answer","type":"string","maxLength":4194304},
+      {"name":"sources","type":"string","maxLength":4194304},
+      {"name":"feedback_value","type":"string","maxLength":4194304},
+      {"name":"feedback_choice","type":"string","maxLength":4194304},
+      {"name":"feedback_message","type":"string","maxLength":4194304},
+      {"name":"timestamp","type":"string","maxLength":4194304},
+      {"name":"state","type":"string","maxLength":4194304},
+      {"name":"llm_context","type":"string","maxLength":4194304}
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
