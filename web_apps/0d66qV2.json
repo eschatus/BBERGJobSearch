@@ -100,11 +100,12 @@
     "sql_retrieval_custom_name": "",
     "custom_theme_name": "",
     "sql_retrieval_table_list": [],
-    "logging_dataset": "prompt_history",
-    "llm_id": "openai:openai-blackbox:gpt-4o-mini"
+    "logging_dataset": "prompt_sql_storage",
+    "llm_id": "openai:openai-blackbox:gpt-4o-mini",
+    "user_profile_dataset": "user_new"
   },
   "name": "test",
-  "apiKey": "e:AES:X2:jjdTdF/Uhr5kwwBx+NvXRZp9KI9b8HFWWZIS21o4DtuOy3IsDjxdGpSD9JsADcUjitVy0+FvFv6zStQjUMelGTwxNXUqmrCy7eu9AhT04xyUqV9PWtDZ",
+  "apiKey": "e:AES:X2:5YtMXSDZuLm0gFqRgbaBCMFxrGYGjIbq6lFNRMd1XSX4k34TNDvEK6YgtqRTEbLJ6BFYw4xDcGN7J2dseLSFCYLLs7EKxc2gai2Uyxr88FOoZ/Mpde6A",
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
