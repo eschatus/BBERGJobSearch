@@ -90,10 +90,12 @@
     "max_thread_workers_number": 0,
     "knowledge_bank_custom_name": "",
     "knowledge_bank_description": "",
-    "knowledge_bank_prompt": "Please act as a headhunter helping people apply to the jobs they are most qualified for. Return the top 3 jobs a candidate should consider based on the information they provide about themselves. Provide this information in the format of Job Title, Required Skills, Salary, and a summary of the  job description. If the Salary is not available leave that information blank.",
+    "knowledge_bank_prompt": "Please act as a headhunter helping people apply to the jobs they are most qualified for. Return the top 3 jobs a candidate should consider based on the information they provide about themselves. Provide this information in the format of Job Title, Required Skills, Salary, and a summary of the  job description. Use the normalized_salary metadata from the knowledge bank to provide the Salary of the job.",
     "knowledge_sources_context_metadata": [],
     "knowledge_sources_filters": [],
-    "knowledge_sources_displayed_metas": [],
+    "knowledge_sources_displayed_metas": [
+      "normalized_salary"
+    ],
     "knowledge_source_url": false,
     "knowledge_source_title": false,
     "knowledge_source_thumbnail": false,
@@ -105,7 +107,7 @@
     "user_profile_dataset": "user_new"
   },
   "name": "test",
-  "apiKey": "e:AES:X2:V6gLN9+PwOLeT/ZyPiwpfg/xTjVSyXClcx0bi8bJ/ghha6RhBD1mNSkWTxWf9/7qI5oguqKrqqGkYpwJ0ZDbIEwPVO+Xs3UOA4UyNH4V8xdxwjZ6orE+",
+  "apiKey": "e:AES:X2:dcy3UyZ9kmbt9BxL6s2rl02/cMdbqgxx9ZfJXHhsBggNeqVDmOTtQ9hOclvPOu/t9a4iBqRB2/Rkd4Qh80zhbyx3aG05Dtgk539bgzQEbj4Hc76zPEyy",
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
