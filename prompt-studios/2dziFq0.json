@@ -1,0 +1,17 @@
+{
+  "name": "Prompt Studio 1",
+  "prompts": [],
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "sibongile.toure@dataiku.com"
+    },
+    "lastModifiedOn": 1733167735538,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
