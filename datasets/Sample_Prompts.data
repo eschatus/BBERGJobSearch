@@ -2,16 +2,13 @@
   "data": [
     [
       null,
-      null,
-      "50"
+      null
     ],
     [
       null,
-      null,
-      "25"
+      null
     ],
     [
-      null,
       null,
       null
     ]
@@ -19,8 +16,7 @@
   "schema": {
     "columns": [
       {"name":"Years of Experience","type":"string"},
-      {"name":"Skills","type":"string"},
-      {"name":"Age","type":"string"}
+      {"name":"Skills","type":"string"}
     ],
     "userModified": false
   }
