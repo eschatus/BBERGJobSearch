@@ -4,6 +4,10 @@
       "remote": "https://github.com/SALT-NLP/value.git",
       "checkout": "refs/heads/master",
       "remotePath": "",
+      "lastHash": "7425da55d6e9aaa3734702856bf4befe3b2b0507",
+      "conflictingFiles": [],
+      "resolvedFiles": [],
+      "faultyHash": "",
       "isDirty": false
     }
   },
