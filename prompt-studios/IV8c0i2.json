@@ -17,7 +17,7 @@
             "type": "TEXT"
           }
         ],
-        "structuredPromptPrefix": "Please act as a headhunter helping people apply to the jobs they are most qualified for. Use the candidates information from Years of Experience, Skills, Age, Gender and  to return the top 3 jobs a candidate should consider based on the information they provide about themselves. Provide this information in the format of Job Title, Required Skills, and a summary of the  job description. Use the normalized_salary metadata from the knowledge bank to provide the Salary of the job.",
+        "structuredPromptPrefix": "Please act as a headhunter helping people apply to the jobs they are most qualified for. Use the candidates information from Years of Experience and Skills and  to return the top 3 jobs a candidate should consider based on the information they provide about themselves. Provide this information in the format of Job Title, Required Skills, and a summary of the  job description. Use the normalized_salary metadata from the knowledge bank to provide the Salary of the job.",
         "structuredPromptExamples": [],
         "textPromptTemplateInputs": [],
         "resultValidation": {
