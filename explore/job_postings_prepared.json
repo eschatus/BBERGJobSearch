@@ -5,7 +5,33 @@
     "columnsSelection": {
       "mode": "ALL"
     },
-    "columnWidthsByName": {},
+    "columnWidthsByName": {
+      "job_id": 100,
+      "company_name": 232,
+      "job_title": 300,
+      "description": 300,
+      "max_salary": 134,
+      "pay_period": 100,
+      "location": 218,
+      "company_id": 134,
+      "med_salary": 134,
+      "min_salary": 134,
+      "formatted_work_type": 158,
+      "original_listed_time": 190,
+      "remote_allowed": 134,
+      "job_posting_url": 300,
+      "application_type": 162,
+      "expiry": 183,
+      "formatted_experience_level": 210,
+      "skills_desc": 183,
+      "listed_time": 183,
+      "sponsored": 100,
+      "work_type": 113,
+      "currency": 100,
+      "compensation_type": 143,
+      "normalized_salary": 143,
+      "skill_name_concat": 246
+    },
     "columnUseScientificNotationByName": {},
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
@@ -63,9 +89,49 @@
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
-    "exploreUIParams": {},
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
     "globalSearchQuery": "",
-    "explorationFilters": [],
+    "explorationFilters": [
+      {
+        "column": "job_title",
+        "type": "columnFilter",
+        "currentMode": "FACET",
+        "active": true,
+        "facet": {
+          "type": "facet",
+          "column": "job_title",
+          "columnType": "ALPHANUM",
+          "currentMode": "ALPHANUM",
+          "sort": "count",
+          "selectedValues": {
+            "Project Manager": true,
+            "Construction Project Manager": true,
+            "Project Engineer": true
+          }
+        },
+        "alphanumFilter": {
+          "type": "alphanum",
+          "column": "job_title",
+          "selectedValues": [],
+          "params": {
+            "mode": "full_string",
+            "normalization": "exact"
+          }
+        },
+        "validityFilter": {
+          "type": "validity",
+          "column": "job_title",
+          "params": {
+            "type": "FreeText",
+            "ok": true,
+            "nok": true,
+            "empty": true
+          }
+        }
+      }
+    ],
     "previewMode": "ALL_ROWS"
   },
   "charts": [
@@ -387,6 +453,7 @@
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
