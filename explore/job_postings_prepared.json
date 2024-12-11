@@ -75,14 +75,93 @@
       "def": {
         "type": "grouped_columns",
         "variant": "normal",
-        "name": "New chart",
+        "name": "Count by job_title",
         "userEditedName": false,
         "displayWithEChartsByDefault": true,
-        "genericDimension0": [],
+        "genericDimension0": [
+          {
+            "column": "job_title",
+            "type": "ALPHANUM",
+            "numParams": {
+              "emptyBinsMode": "ZEROS"
+            },
+            "maxValues": 20,
+            "generateOthersCategory": true,
+            "forceLastPositionOthers": false,
+            "oneTickPerBin": "AUTO",
+            "filters": [],
+            "isA": "dimension",
+            "possibleSorts": [
+              {
+                "type": "NATURAL",
+                "label": "Natural ordering",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Count of records, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Count of records, ascending",
+                "sortAscending": true
+              }
+            ],
+            "sort": {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of records, descending"
+            },
+            "multiplier": "Auto",
+            "hideTrailingZeros": true,
+            "digitGrouping": "DEFAULT",
+            "useParenthesesForNegativeValues": false,
+            "shouldFormatInPercentage": false
+          }
+        ],
         "genericDimension1": [],
         "facetDimension": [],
         "animationDimension": [],
-        "genericMeasures": [],
+        "genericMeasures": [
+          {
+            "function": "COUNT",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0,
+            "multiplier": "Auto",
+            "digitGrouping": "DEFAULT",
+            "useParenthesesForNegativeValues": false,
+            "shouldFormatInPercentage": false,
+            "hideTrailingZeros": true,
+            "showValue": true,
+            "showDisplayLabel": true,
+            "labelPosition": "BOTTOM",
+            "labelFontSize": 16,
+            "percentile": 50.0,
+            "isCustomPercentile": false,
+            "kpiTextAlign": "CENTER",
+            "kpiValueFontSizeMode": "RESPONSIVE",
+            "kpiValueFontSize": 32,
+            "responsiveTextAreaFill": 100,
+            "valueTextFormatting": {
+              "fontSize": 11,
+              "fontColor": "#333",
+              "hasBackground": false
+            },
+            "labelTextFormatting": {
+              "fontSize": 11,
+              "fontColor": "#333",
+              "hasBackground": false
+            },
+            "colorRules": []
+          }
+        ],
         "xDimension": [],
         "yDimension": [],
         "uaXDimension": [],
@@ -127,6 +206,7 @@
         "tooltipMeasures": [],
         "boxplotBreakdownDim": [],
         "boxplotValue": [],
+        "filters": [],
         "xAxisFormatting": {
           "displayAxis": true,
           "showAxisTitle": true,
@@ -388,8 +468,8 @@
           "lockSquareGrid": false
         },
         "mapGridOptions": {
-          "gridLonDeg": 0.6,
-          "gridLatDeg": 0.6
+          "gridLonDeg": 0.5,
+          "gridLatDeg": 0.5
         },
         "radarOptions": {
           "filled": false,
@@ -451,6 +531,7 @@
           },
           "displayPointer": false
         },
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABQCAYAAADSm7GJAAAAAXNSR0IArs4c6QAAAqpJREFUeF7tnLFu01AUhuPYjhOClJIgQSXUqhIsrHSpxAsg8TYMwMwAz8DAwiuA+ghMrIygLqkqUCBpS9zk2kYZQHYUMVRnOPn1dby99+j835d/ddTiT5pAJJ2OcC0Ei/8IEIxgcQLi8WgwgsUJiMejwQgWJyAejwYjWJzAlsfbf3l8tCnCyesnn1bnNHjLBe89P34ctYpXjRhR6/3Jm6fvELzlclfrI1hA4v8iIBjB4gTE49FgBIsTEI9HgxEsTkA8Hg1GsDgB8Xg0GMHiBMTj0WAEixMQj0eDESxOQDweDUawOAHxeDQYweIExOPRYASLExCPR4MRLE5APB4NRrA4AfF4NBjB4gTE49FgBIsTEI9HgxEsTkA8Hg1GsDgB8Xg0GMHiBMTj0WAEixMQj0eDESxOQDzetRu89+LDrXU2aUjTndno5/r557eHS3GObuNdW/DBs4/7ZRoN68nKLDmrruY36mdJkVyEEC+K9qL997zdCVWU3/3d6Vx26ne/dpOr+5N54ywMe4tk7Swb9crp9HvRT7Ok/r6Yp4u4t2y8X51lo15avzepzst4llfLePBvp9X/z25Ol3cuBo27m856/U4RZlm0jM8b7+89GC3G43Hj/WmUh92q29izP0mK/GCnXUx/NL4kOIzyMFm7e/olD7sPm+833YsHt6vut1/l5TDEDf55dhiX4VH9rIqrKV+6c9tJ28X4VqUtT3fTEOxOie1CCLbl6W4agt0psV0IwbY83U1DsDsltgsh2Janu2kIdqfEdiEE2/J0Nw3B7pTYLoRgW57upiHYnRLbhRBsy9PdNAS7U2K7EIJtebqbhmB3SmwXQrAtT3fTEOxOie1CCLbl6W4agt0psV0IwbY83U1DsDsltgsh2Janu2kIdqfEdiEE2/J0N+0PcyNsYBvk7oEAAAAASUVORK5CYII\u003d",
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT",
         "legendFormatting": {
@@ -504,8 +585,10 @@
             }
           },
           "horizontal": {
-            "show": false,
-            "displayAxis": {},
+            "show": true,
+            "displayAxis": {
+              "type": "LEFT_Y_AXIS"
+            },
             "lineFormatting": {
               "type": "FILLED",
               "color": "#d9d9d9",
