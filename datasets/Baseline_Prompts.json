@@ -55,7 +55,8 @@
   "schema": {
     "columns": [
       {"name":"Skills","type":"string"},
-      {"name":"Years of Experience","type":"string"}
+      {"name":"Years of Experience","type":"string"},
+      {"name":"Request Prompt","type":"string"}
     ],
     "userModified": true
   },

@@ -2,89 +2,110 @@
   "data": [
     [
       "Python, Java",
-      "10"
+      "10",
+      "I am software engineer with 10 years of experience in Python and Java."
     ],
     [
       "Patient Care, ICU triage, Nursing",
-      "5"
+      "5",
+      "I am a nurse in hospital ICUs, experienced in patient care and surgical support. I have 5 years of experience."
     ],
     [
       "Social Media, Online Marketing",
-      "1"
+      "1",
+      "I am an entry level marketing professional. I have experience with social media promotions and online marketing campaigns."
     ],
     [
       "Leadership, Sales, Business Development",
-      "25"
+      "25",
+      "I am a seasoned sales leader with 25 years of experience."
     ],
     [
       "Data Science, Python, Analytics",
-      "7"
+      "7",
+      "I am a data scientist who primarily uses Python. I can also provide data analytics and data engineering support. I have 7 years of experience."
     ],
     [
       "Manufacturing, Management",
-      "12"
+      "12",
+      "I am a site manager for an engineering firm, overseeing 5 direct reports. I have 12 years of experience."
     ],
     [
       "Project Management, Information Technology ",
-      "6"
+      "6",
+      "I am a project manager for the IT department at my current company. I have 6 years of experience. "
     ],
     [
       "Construction, Engineering, Site Management",
-      "18"
+      "18",
+      "I am construction manager with 18 years of experience. I have managed large scale projects and sites for large developments in both urban and rural settings."
     ],
     [
       "Legal Counsel, Contract Review",
-      "2"
+      "2",
+      "I am a legal counsel at a large law firm, providing contract review for clients. I have 2 years of experience."
     ],
     [
       "Administration, Office Management",
-      "0"
+      "0",
+      "I am a recent graduate looking to support office management and workplace experience."
     ],
     [
       "Human Resources",
-      "9"
+      "9",
+      "I am a people business partner within human resources. I support the operations and growth of our employees. I have 9 years of experience."
     ],
     [
       "Customer Service, Management, Consulting",
-      "14"
+      "14",
+      "I am an seasoned consultant with 14 years of experience. I currently manage 3 direct reports within the customer service department of my company."
     ],
     [
       "Design, Art, Information Technology",
-      "5"
+      "5",
+      "I am a graphic designer with 5 years of experience. I have made digitial assets for  numerous consumer products such as Pepsi, Subway and Apple."
     ],
     [
       "Consulting, Information Technology",
-      "3"
+      "3",
+      "I am a junior consultant with a large global services integrator. I have experience advising change management practices and have 3 years of experience."
     ],
     [
       "Public Policy, Writing, Thought Leadership",
-      "11"
+      "11",
+      "I am a public policy professional for a large software company. I have written many position papers and think pieces to influence the industry. I have 11 years of experience."
     ],
     [
       "Finance, Analytics ",
-      "8"
+      "8",
+      "I am finanical analyst for a mid-size bank, I have 8 years of experience."
     ],
     [
       "Quality Assurance",
-      "15"
+      "15",
+      "I am a quality assurance professional for a manufacturing company making silicon chips. I have 15 years of experience."
     ],
     [
       "Purchasing,Supply Chain",
-      "10"
+      "10",
+      "I am a supply chain professional for a large department store. I have conducted purchasing for multiple areas of the business over my 10 years with the company."
     ],
     [
       "Information Technology",
-      "19"
+      "19",
+      "I am a director of Information Technology at PNC Bank. I have managed the migration of various systems over the years, including changes to our data pipeline and asset management tools. I have 19 years of experience."
     ],
     [
       "Education, Teaching",
-      "13"
+      "13",
+      "I am an English teacher for middle school and high school students. I have been teaching for 13 years and am looking for roles in curriculum development and educational improvements. "
     ]
   ],
   "schema": {
     "columns": [
       {"name":"Skills","type":"string"},
-      {"name":"Years of Experience","type":"string"}
+      {"name":"Years of Experience","type":"string"},
+      {"name":"Request Prompt","type":"string"}
     ],
     "userModified": false
   }
