@@ -1,0 +1,17 @@
+{
+  "name": "Job Bias Prompts",
+  "prompts": [],
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "triveni.gandhi@dataiku.com"
+    },
+    "lastModifiedOn": 1733929891350,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
