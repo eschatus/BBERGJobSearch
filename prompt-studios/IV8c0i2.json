@@ -1,6 +1,51 @@
 {
   "name": "Job Bias Prompts",
-  "prompts": [],
+  "prompts": [
+    {
+      "id": "ml2x71qdwp",
+      "prompt": {
+        "promptMode": "PROMPT_TEMPLATE_STRUCTURED",
+        "promptTemplateInputs": [
+          {
+            "name": "Years of Experience",
+            "datasetColumnName": "Years of Experience",
+            "type": "TEXT"
+          },
+          {
+            "name": "Skills",
+            "datasetColumnName": "Skills",
+            "type": "TEXT"
+          },
+          {
+            "name": "Age",
+            "datasetColumnName": "Age",
+            "type": "TEXT"
+          }
+        ],
+        "structuredPromptPrefix": "Please act as a headhunter helping people apply to the jobs they are most qualified for. Use the candidates information from Years of Experience, Skills, Age, Gender and  to return the top 3 jobs a candidate should consider based on the information they provide about themselves. Provide this information in the format of Job Title, Required Skills, and a summary of the  job description. Use the normalized_salary metadata from the knowledge bank to provide the Salary of the job.",
+        "structuredPromptExamples": [],
+        "textPromptTemplateInputs": [],
+        "resultValidation": {
+          "expectedFormat": "NONE",
+          "requiredJSONObjectKeys": [],
+          "forbiddenTerms": []
+        },
+        "promptTemplateQueriesSource": "DATASET"
+      },
+      "llmId": "retrievalaugmented:VwFckeXU:job_chat_4o",
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      },
+      "llmSettings": {
+        "stopSequences": []
+      },
+      "dataset": "Sample_Prompts",
+      "nbRows": 8,
+      "inlinePromptTemplateQueries": [],
+      "tags": [],
+      "starred": false
+    }
+  ],
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
