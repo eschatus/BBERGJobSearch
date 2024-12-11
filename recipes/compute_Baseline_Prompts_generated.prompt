@@ -1,0 +1,32 @@
+{
+  "associatedPromptStudioPromptId": "Xa4pYnZWrR",
+  "associatedPromptStudioId": "IV8c0i2",
+  "completionSettings": {
+    "stopSequences": []
+  },
+  "llmId": "retrievalaugmented:VwFckeXU:job_chat_4o",
+  "prompt": {
+    "promptTemplateInputs": [
+      {
+        "datasetColumnName": "Skills",
+        "name": "Skills",
+        "type": "TEXT"
+      },
+      {
+        "datasetColumnName": "Years of Experience",
+        "name": "Years of Experience",
+        "type": "TEXT"
+      }
+    ],
+    "resultValidation": {
+      "requiredJSONObjectKeys": [],
+      "expectedFormat": "NONE",
+      "forbiddenTerms": []
+    },
+    "promptTemplateQueriesSource": "DATASET",
+    "structuredPromptExamples": [],
+    "textPromptTemplateInputs": [],
+    "promptMode": "PROMPT_TEMPLATE_STRUCTURED",
+    "structuredPromptPrefix": "Please act as a headhunter helping people apply to the jobs they are most qualified for. Use the candidates information from Years of Experience and Skills and  to return the top 3 jobs a candidate should consider based on the information they provide about themselves. Provide this information in the format of Job Title, Required Skills, and a summary of the  job description. Use the normalized_salary metadata from the knowledge bank to provide the Salary of the job."
+  }
+}
