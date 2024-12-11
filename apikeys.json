@@ -13,6 +13,7 @@
     ],
     "projectPrivileges": {
       "admin": false,
+      "editPermissions": false,
       "readProjectContent": false,
       "writeProjectContent": false,
       "exportDatasetsData": false,
@@ -28,9 +29,46 @@
       "executeApp": false
     },
     "onBehalf": "0d66qV2",
+    "expiresOn": 0,
     "id": "6PtlZF8i3F2FeMtd",
     "key": "sha256:McVzxas6:1ad33ee9cc59cda63b9efaba99fb63ecfcbdc74bc3fc0a992836b066195f9982",
     "label": "Key for Web app test(0d66qV2)",
     "createdOn": 1732562917505
+  },
+  {
+    "execSQLLike": false,
+    "localDatasets": [
+      {
+        "datasets": [],
+        "privileges": [
+          "READ_DATA",
+          "READ_METADATA",
+          "READ_SCHEMA"
+        ]
+      }
+    ],
+    "projectPrivileges": {
+      "admin": false,
+      "editPermissions": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "publishToDataCollections": false,
+      "shareToWorkspaces": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    "onBehalf": "yqKBtA3",
+    "expiresOn": 0,
+    "id": "vpQW455KfkLTZFDi",
+    "key": "sha256:0M5U3EPa:4a4b7c172e2506b0e0d402824d8c02e02491a43cdf9215072b04da5854402aef",
+    "label": "Key for Web app New Answers(yqKBtA3)",
+    "createdOn": 1733953295365
   }
 ]
