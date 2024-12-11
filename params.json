@@ -15,6 +15,7 @@
     {
       "group": "space_administrators",
       "admin": true,
+      "editPermissions": false,
       "readProjectContent": false,
       "writeProjectContent": false,
       "exportDatasetsData": false,
@@ -32,6 +33,7 @@
     {
       "user": "triveni.gandhi@dataiku.com",
       "admin": true,
+      "editPermissions": false,
       "readProjectContent": false,
       "writeProjectContent": true,
       "exportDatasetsData": true,
@@ -56,9 +58,11 @@
     "flowDisplaySettings": {
       "zonesGraphRenderingAlgorithm": "DOT_OLDRANK",
       "zonesGraphConnectZones": true,
-      "zonesGraphForJobs": true
+      "zonesGraphForJobs": true,
+      "zonesManualPositioning": false
     },
     "gitCommitMode": "AUTO",
+    "useRemoteGit": true,
     "disableAutomaticTriggers": false,
     "integrations": {
       "integrations": []
