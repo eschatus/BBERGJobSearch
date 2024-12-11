@@ -44,6 +44,32 @@
       "inlinePromptTemplateQueries": [],
       "tags": [],
       "starred": false
+    },
+    {
+      "id": "Xa4pYnZWrR",
+      "prompt": {
+        "promptMode": "PROMPT_TEMPLATE_STRUCTURED",
+        "promptTemplateInputs": [],
+        "structuredPromptExamples": [],
+        "textPromptTemplateInputs": [],
+        "resultValidation": {
+          "expectedFormat": "NONE",
+          "requiredJSONObjectKeys": [],
+          "forbiddenTerms": []
+        },
+        "promptTemplateQueriesSource": "DATASET"
+      },
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      },
+      "llmSettings": {
+        "stopSequences": []
+      },
+      "dataset": "Baseline_Prompts",
+      "nbRows": 8,
+      "inlinePromptTemplateQueries": [],
+      "tags": [],
+      "starred": false
     }
   ],
   "creationTag": {
