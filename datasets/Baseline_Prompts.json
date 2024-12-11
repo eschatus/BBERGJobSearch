@@ -53,7 +53,10 @@
     "importSourceType": "NONE"
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"Skills","type":"string"},
+      {"name":"Years of Experience","type":"string"}
+    ],
     "userModified": true
   },
   "dkuProperties": [],

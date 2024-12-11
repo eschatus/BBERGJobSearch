@@ -1,3 +1,91 @@
 {
-  "data": []
+  "data": [
+    [
+      "Python, Java",
+      "10"
+    ],
+    [
+      "Patient Care, ICU triage, Nursing",
+      "5"
+    ],
+    [
+      "Social Media, Online Marketing",
+      "1"
+    ],
+    [
+      "Leadership, Sales, Business Development",
+      "25"
+    ],
+    [
+      "Data Science, Python, Analytics",
+      "7"
+    ],
+    [
+      "Manufacturing, Management",
+      "12"
+    ],
+    [
+      "Project Management, Information Technology ",
+      "6"
+    ],
+    [
+      "Construction, Engineering, Site Management",
+      "18"
+    ],
+    [
+      "Legal Counsel, Contract Review",
+      "2"
+    ],
+    [
+      "Administration, Office Management",
+      "0"
+    ],
+    [
+      "Human Resources",
+      "9"
+    ],
+    [
+      "Customer Service, Management, Consulting",
+      "14"
+    ],
+    [
+      "Design, Art, Information Technology",
+      "5"
+    ],
+    [
+      "Consulting, Information Technology",
+      "3"
+    ],
+    [
+      "Public Policy, Writing, Thought Leadership",
+      "11"
+    ],
+    [
+      "Finance, Analytics ",
+      "8"
+    ],
+    [
+      "Quality Assurance",
+      "15"
+    ],
+    [
+      "Purchasing,Supply Chain",
+      "10"
+    ],
+    [
+      "Information Technology",
+      "19"
+    ],
+    [
+      "Education, Teaching",
+      "13"
+    ]
+  ],
+  "schema": {
+    "columns": [
+      {"name":"Skills","type":"string"},
+      {"name":"Years of Experience","type":"string"}
+    ],
+    "userModified": false
+  }
 }
