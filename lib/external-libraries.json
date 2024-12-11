@@ -2,7 +2,7 @@
   "gitReferences": {
     "python": {
       "remote": "https://github.com/SALT-NLP/value.git",
-      "checkout": "main",
+      "checkout": "refs/heads/master",
       "remotePath": "",
       "isDirty": false
     }
